@@ -10,20 +10,102 @@
   <body>
     <nav
       style="padding: 2vw 10vw"
-      class="fixed flex w-full items-center justify-between"
+      class="fixed flex h-[12vh] w-full items-start justify-between"
     >
       <h1 class="text-[1.7vw] font-bold">LAZAREV.</h1>
-      <div class="nav-part2 flex gap-[2vw]">
-        <h4 class="text-[0.8vw] uppercase font-semibold">Case Studies</h4>
-        <h4 class="text-[0.8vw] uppercase font-semibold">Areas of expertise</h4>
-        <h4 class="text-[0.8vw] uppercase font-semibold">UIUX Design</h4>
-        <h4 class="text-[0.8vw] uppercase font-semibold">Product Design</h4>
-        <h4 class="text-[0.8vw] uppercase font-semibold">Design Process</h4>
-        <h4 class="text-[0.8vw] uppercase font-semibold">About Agency</h4>
-      </div>
-      <button>Let's talk</button>
       <div
-        class="nav-bottom h-[0%] absolute w-[80%] bottom-[0%] border-b border-b-[#dadada] transition-all ease-[0.65s] duration-[650ms]"
+        style="padding: 1vh 0"
+        class="nav-part2 flex gap-[2vw] items-start relative z-[10]"
+      >
+        <div class="nav-elem">
+          <h4
+            style="margin-bottom: 2.8vw"
+            class="text-[0.8vw] uppercase font-semibold"
+          >
+            Case Studies
+          </h4>
+          <h5><span>Case Studies</span></h5>
+        </div>
+        <div class="nav-elem">
+          <h4
+            style="margin-bottom: 2.8vw"
+            class="text-[0.8vw] uppercase font-semibold"
+          >
+            Areas of expertise
+          </h4>
+          <h5><span>🔥AI & ML</span></h5>
+          <h5><span>FinTech</span></h5>
+          <h5><span>Real Estate</span></h5>
+          <h5><span>E-commerce</span></h5>
+          <h5><span>Web3</span></h5>
+        </div>
+        <div class="nav-elem">
+          <h4
+            style="margin-bottom: 2.8vw"
+            class="text-[0.8vw] uppercase font-semibold"
+          >
+            UIUX Design
+          </h4>
+          <h5><span>UX Audit</span></h5>
+          <h5><span>UI Design</span></h5>
+          <h5><span>UX Design</span></h5>
+          <h5><span>UX Research</span></h5>
+        </div>
+        <div class="nav-elem">
+          <h4
+            style="margin-bottom: 2.8vw"
+            class="text-[0.8vw] uppercase font-semibold"
+          >
+            Product Design
+          </h4>
+          <h5><span>SaaS</span></h5>
+          <h5><span>Web App</span></h5>
+          <h5><span>Mobile App</span></h5>
+          <h5><span>Website Design</span></h5>
+        </div>
+        <div class="nav-elem">
+          <h4
+            style="margin-bottom: 2.8vw"
+            class="text-[0.8vw] uppercase font-semibold"
+          >
+            Design Process
+          </h4>
+          <h5><span>MVP</span></h5>
+          <h5><span>Relaunch</span></h5>
+        </div>
+        <div class="nav-elem">
+          <h4
+            style="margin-bottom: 2.8vw"
+            class="text-[0.8vw] uppercase font-semibold"
+          >
+            About Agency
+          </h4>
+          <h5><span>Our Story</span></h5>
+          <h5><span>Client's Feedback</span></h5>
+          <h5><span>Careers</span></h5>
+          <h5></h5>
+          <h5><span>News & Articles</span></h5>
+        </div>
+      </div>
+      <button
+        style="padding: 10px 12px"
+        class="font-bold uppercase text-[0.8vw] bg-[#0BA34E] flex items-center rounded-[50px] border-none"
+      >
+        Let's talk
+        <svg
+          style="margin-left: 1vw"
+          class="h-[0.8vw]"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
+          <path
+            d="M15.7279 9.57627L14.3137 8.16206L5 17.4758V18.89H6.41421L15.7279 9.57627ZM17.1421 8.16206L18.5563 6.74785L17.1421 5.33363L15.7279 6.74785L17.1421 8.16206ZM7.24264 20.89H3V16.6473L16.435 3.21231C16.8256 2.82179 17.4587 2.82179 17.8492 3.21231L20.6777 6.04074C21.0682 6.43126 21.0682 7.06443 20.6777 7.45495L7.24264 20.89Z"
+          ></path>
+        </svg>
+      </button>
+      <div
+        class="nav-bottom w-[79%] h-[0vh] z-[9] absolute top-[100%] bg-[#111] border-b border-b-[#fff]"
       ></div>
     </nav>
     <div class="main">
@@ -69,6 +151,12 @@
       </div>
       <div class="page2 h-screen w-full bg-[#111]"></div>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
