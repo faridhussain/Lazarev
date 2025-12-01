@@ -59,3 +59,8 @@ body {
     transform: translateX(-100%);
   }
 }
+
+.right-elem h2 {
+  font-size: 1.4vw;
+  font-weight: 400;
+}
