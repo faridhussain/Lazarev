@@ -11,3 +11,8 @@ body {
   height: 100%;
   width: 100%;
 }
+
+nav:hover .nav-bottom {
+  height: 100%;
+  bottom: -100%;
+}
