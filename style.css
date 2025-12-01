@@ -12,11 +12,12 @@ body {
   width: 100%;
 }
 
-nav:hover .nav-bottom {
-  /* height: 150%;
+/* nav:hover .nav-bottom {
+  height: 150%;
   bottom: -150%;
-  background-color: #111; */
-}
+  background-color: #111; 
+} 
+*/
 
 .bottom-div {
   margin-top: 2vw;
@@ -38,11 +39,14 @@ nav:hover .nav-bottom {
 .nav-part2 h5 {
   margin-bottom: 0.5vw;
   /* background-color: red; */
-  opacity: 0;
+  overflow: hidden;
+  /* opacity: 0; */
+  display: none;
 }
 
 .nav-part2 h5 span {
   font-size: 0.8vw;
   font-weight: 400;
+  transform: translateY(25px);
   display: inline-block;
 }
