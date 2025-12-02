@@ -23,7 +23,7 @@ function navAnimation() {
     let tl = gsap.timeline();
 
     tl.to(".nav-part2 h5 span", {
-      y: 25,
+      y: "100%",
       stagger: {
         amount: 0.2,
       },
@@ -41,7 +41,7 @@ function navAnimation() {
   });
 }
 
-navAnimation();
+// navAnimation();
 
 function page2Animation() {
   let rightElems = document.querySelectorAll(".right-elem");

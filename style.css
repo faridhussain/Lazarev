@@ -32,12 +32,14 @@ body {
   margin-bottom: 0.5vw;
   overflow: hidden;
   display: none;
+  position: relative;
+  z-index: 11;
 }
 
 .nav-part2 h5 span {
   font-size: 0.8vw;
   font-weight: 400;
-  transform: translateY(25px);
+  transform: translateY(100%);
   display: inline-block;
 }
 
