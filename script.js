@@ -41,7 +41,7 @@ function navAnimation() {
   });
 }
 
-// navAnimation();
+navAnimation();
 
 function page2Animation() {
   let rightElems = document.querySelectorAll(".right-elem");
@@ -70,3 +70,28 @@ function page2Animation() {
 }
 
 page2Animation();
+
+function page3VideoAnimation() {
+  let page3Center = document.querySelector(".page3-center");
+  let video = document.querySelector(".page3 video");
+
+  page3Center.addEventListener("click", function () {
+    video.play();
+    gsap.to(video, {
+      transform: "scaleX(1) scaleY(1)",
+      opacity: 1,
+      borderRadius: 0,
+    });
+  });
+
+  video.addEventListener("click", function () {
+    video.pause();
+    gsap.to(video, {
+      transform: "scaleX(0.7) scaleY(0)",
+      opacity: 0,
+      borderRadius: "30px",
+    });
+  });
+}
+
+page3VideoAnimation();

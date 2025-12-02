@@ -66,3 +66,8 @@ body {
   font-size: 1.4vw;
   font-weight: 400;
 }
+
+.page3-center:hover h5 {
+  opacity: 1;
+  transform: translateY(0%);
+}
