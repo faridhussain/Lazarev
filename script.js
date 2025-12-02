@@ -41,7 +41,7 @@ function navAnimation() {
   });
 }
 
-navAnimation();
+// navAnimation();
 
 function page2Animation() {
   let rightElems = document.querySelectorAll(".right-elem");
@@ -69,7 +69,7 @@ function page2Animation() {
   });
 }
 
-page2Animation();
+// page2Animation();
 
 function page3VideoAnimation() {
   let page3Center = document.querySelector(".page3-center");
