@@ -94,7 +94,7 @@ function page3VideoAnimation() {
   });
 }
 
-// page3VideoAnimation();
+page3VideoAnimation();
 
 let sectionRight = document.querySelectorAll(".sec-right");
 sectionRight.forEach(function (elem) {

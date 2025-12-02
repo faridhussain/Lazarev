@@ -71,3 +71,16 @@ body {
   opacity: 1;
   transform: translateY(0%);
 }
+
+.page6-elem:hover h3 {
+  padding-left: 1vw;
+}
+
+.page6-elem:hover i {
+  padding-right: 1vw;
+}
+
+.page6-elem:hover .over {
+  transform: translateY(0);
+  opacity: 1;
+}
