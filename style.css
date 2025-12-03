@@ -80,7 +80,10 @@ body {
   padding-right: 1vw;
 }
 
-.page6-elem:hover .over {
-  transform: translateY(0);
-  opacity: 1;
+.page6-elem:hover {
+  border-top: 1px solid #fff;
+}
+
+summary::marker {
+  content: "";
 }
