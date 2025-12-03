@@ -107,3 +107,9 @@ sectionRight.forEach(function (elem) {
     elem.childNodes[3].load();
   });
 });
+
+let icon = document.querySelector("i");
+let page6Heading = document.querySelector(".page6-heading");
+page6Heading.addEventListener("click", function () {
+  icon.style.opacity = 0;
+});
