@@ -96,20 +96,34 @@ function page3VideoAnimation() {
 
 page3VideoAnimation();
 
-let sectionRight = document.querySelectorAll(".sec-right");
-sectionRight.forEach(function (elem) {
-  elem.addEventListener("mouseenter", function () {
-    elem.childNodes[3].style.opacity = 1;
-    elem.childNodes[3].play();
+function page5videoPlayPause() {
+  let sectionRight = document.querySelectorAll(".sec-right");
+  sectionRight.forEach(function (elem) {
+    elem.addEventListener("mouseenter", function () {
+      elem.childNodes[3].style.opacity = 1;
+      elem.childNodes[3].play();
+    });
+    elem.addEventListener("mouseleave", function () {
+      elem.childNodes[3].style.opacity = 0;
+      elem.childNodes[3].load();
+    });
   });
-  elem.addEventListener("mouseleave", function () {
-    elem.childNodes[3].style.opacity = 0;
-    elem.childNodes[3].load();
-  });
-});
+}
 
-let icon = document.querySelector("i");
-let page6Heading = document.querySelector(".page6-heading");
-page6Heading.addEventListener("click", function () {
-  icon.style.opacity = 0;
-});
+page5videoPlayPause();
+
+function page8Animation() {
+  gsap.to(".btm8-part2 h4", {
+    x: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".btm8-part2",
+      scroller: "body",
+      start: "top 80%",
+      end: "top 10%",
+      scrub: true,
+    },
+  });
+}
+
+page8Animation();
