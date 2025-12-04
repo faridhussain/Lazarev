@@ -131,3 +131,9 @@ summary::marker {
   z-index: 999;
 }
 
+.service-link {
+  transition: color 0.3s ease;
+}
+.service-link:hover {
+  color: #0ba34e;
+}
