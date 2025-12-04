@@ -106,3 +106,28 @@ summary::marker {
 .btm8-part2 h4:nth-child(7) {
   transform: translateX(50%);
 }
+
+.btm8-part3 h4:nth-child(2) {
+  transform: translateX(0);
+}
+.btm8-part3 h4:nth-child(3) {
+  transform: translateX(30%);
+}
+
+.btm8-part4 h4:nth-child(2) {
+  transform: translateX(0);
+}
+.btm8-part4 h4:nth-child(3) {
+  transform: translateX(30%);
+}
+.btm8-part4 h4:nth-child(4) {
+  transform: translateX(50%);
+}
+
+#become-client {
+  position: fixed;
+  top: 15%;
+  right: 10.5vw; /* same horizontal placement as before */
+  z-index: 999;
+}
+

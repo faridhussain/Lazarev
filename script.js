@@ -129,7 +129,7 @@ function page2Animation() {
     });
   });
 }
-// page2Animation();
+page2Animation();
 
 function page3VideoAnimation() {
   let page3Center = document.querySelector(".page3-center");
@@ -182,5 +182,42 @@ function page8Animation() {
       scrub: true,
     },
   });
+
+  gsap.to(".btm8-part3 h4", {
+    x: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".btm8-part3",
+      scroller: ".main",
+      start: "top 80%",
+      end: "top 10%",
+      scrub: true,
+    },
+  });
+  gsap.to(".btm8-part4 h4", {
+    x: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".btm8-part4",
+      scroller: ".main",
+      start: "top 80%",
+      end: "top 10%",
+      scrub: true,
+    },
+  });
 }
 page8Animation();
+
+function page6StickyButton() {
+  gsap.to(".page6 button", {
+    scrollTrigger: {
+      trigger: ".page6",
+      scroller: ".main",
+      start: "top top",
+      end: "bottom 45%",
+      pin: ".page6 button",
+      pinSpacing: false,
+    },
+  });
+}
+page6StickyButton();
