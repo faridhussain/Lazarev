@@ -19,7 +19,91 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        color: #fff;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      @keyframes mobe {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      .page3-center:hover h5 {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+
+      .page6-elem:hover h3 {
+        padding-left: 1vw;
+      }
+
+      .page6-elem:hover i {
+        padding-right: 1vw;
+      }
+
+      .page6-elem:hover {
+        border-top: 1px solid #fff;
+      }
+
+      summary::marker {
+        content: "";
+      }
+
+      .btm8-part2 h4:nth-child(2) {
+        transform: translateX(0);
+      }
+      .btm8-part2 h4:nth-child(3) {
+        transform: translateX(10%);
+      }
+      .btm8-part2 h4:nth-child(4) {
+        transform: translateX(20%);
+      }
+      .btm8-part2 h4:nth-child(5) {
+        transform: translateX(30%);
+      }
+      .btm8-part2 h4:nth-child(6) {
+        transform: translateX(40%);
+      }
+      .btm8-part2 h4:nth-child(7) {
+        transform: translateX(50%);
+      }
+
+      .btm8-part3 h4:nth-child(2) {
+        transform: translateX(0);
+      }
+      .btm8-part3 h4:nth-child(3) {
+        transform: translateX(30%);
+      }
+
+      .btm8-part4 h4:nth-child(2) {
+        transform: translateX(0);
+      }
+      .btm8-part4 h4:nth-child(3) {
+        transform: translateX(30%);
+      }
+      .btm8-part4 h4:nth-child(4) {
+        transform: translateX(50%);
+      }
+      .service-link:hover {
+        color: #0ba34e;
+      }
+    </style>
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
@@ -39,7 +123,15 @@
           >
             Case Studies
           </h4>
-          <h5><span>Case Studies</span></h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >Case Studies</span
+            >
+          </h5>
         </div>
         <div class="nav-elem">
           <h4
@@ -48,10 +140,42 @@
           >
             Areas of expertise
           </h4>
-          <h5><span>AI & ML</span></h5>
-          <h5><span>FinTech</span></h5>
-          <h5><span>Real Estate</span></h5>
-          <h5><span>E-commerce</span></h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >AI & ML</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >FinTech</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >Real Estate</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >E-commerce</span
+            >
+          </h5>
         </div>
         <div class="nav-elem">
           <h4
@@ -60,10 +184,42 @@
           >
             UIUX Design
           </h4>
-          <h5><span>UX Audit</span></h5>
-          <h5><span>UI Design</span></h5>
-          <h5><span>UX Design</span></h5>
-          <h5><span>UX Research</span></h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >UX Audit</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >UI Design</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >UX Design</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >UX Research</span
+            >
+          </h5>
         </div>
         <div class="nav-elem">
           <h4
@@ -72,10 +228,42 @@
           >
             Product Design
           </h4>
-          <h5><span>SaaS</span></h5>
-          <h5><span>Web App</span></h5>
-          <h5><span>Mobile App</span></h5>
-          <h5><span>Website Design</span></h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >SaaS</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >Web App</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >Mobile App</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >Website Design</span
+            >
+          </h5>
         </div>
         <div class="nav-elem">
           <h4
@@ -84,8 +272,24 @@
           >
             Design Process
           </h4>
-          <h5><span>MVP</span></h5>
-          <h5><span>Relaunch</span></h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >MVP</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >Relaunch</span
+            >
+          </h5>
         </div>
         <div class="nav-elem">
           <h4
@@ -94,11 +298,46 @@
           >
             About Agency
           </h4>
-          <h5><span>Our Story</span></h5>
-          <h5><span>Client's Feedback</span></h5>
-          <h5><span>Careers</span></h5>
-          <h5></h5>
-          <h5><span>News & Articles</span></h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >Our Story</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >Client's Feedback</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >Careers</span
+            >
+          </h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          ></h5>
+          <h5
+            style="margin-bottom: 0.5vw"
+            class="overflow-hidden none relative z-[11]"
+          >
+            <span
+              class="font-normal inline-block text-[0.8vw] translate-y-[100%]"
+              >News & Articles</span
+            >
+          </h5>
         </div>
       </div>
       <button
@@ -173,26 +412,90 @@
           <div
             class="move flex gap-[2vw] items-center flex-nowrap animate-[mobe_9s_linear_infinite]"
           >
-            <img src="https://lazarev.kiev.ua/la24/forbes.svg" />
-            <img src="https://lazarev.kiev.ua/la24/adweek.svg" />
-            <img src="https://lazarev.kiev.ua/la24/pmi.svg" />
-            <img src="https://lazarev.kiev.ua/la24/wf.svg" />
-            <img src="https://lazarev.kiev.ua/la24/adweek.svg" />
-            <img src="https://lazarev.kiev.ua/la24/rd.svg" />
-            <img src="https://lazarev.kiev.ua/la24/pmi.svg" />
-            <img src="https://lazarev.kiev.ua/la24/webby.svg" />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/forbes.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/adweek.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/pmi.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/wf.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/adweek.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/rd.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/pmi.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/webby.svg"
+            />
           </div>
           <div
             class="move flex gap-[2vw] items-center flex-nowrap animate-[mobe_9s_linear_infinite]"
           >
-            <img src="https://lazarev.kiev.ua/la24/forbes.svg" />
-            <img src="https://lazarev.kiev.ua/la24/adweek.svg" />
-            <img src="https://lazarev.kiev.ua/la24/pmi.svg" />
-            <img src="https://lazarev.kiev.ua/la24/wf.svg" />
-            <img src="https://lazarev.kiev.ua/la24/adweek.svg" />
-            <img src="https://lazarev.kiev.ua/la24/rd.svg" />
-            <img src="https://lazarev.kiev.ua/la24/pmi.svg" />
-            <img src="https://lazarev.kiev.ua/la24/webby.svg" />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/forbes.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/adweek.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/pmi.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/wf.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/adweek.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/rd.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/pmi.svg"
+            />
+            <img
+              class="block h-[1vw] w-auto flex-none max-w-none object-contain"
+              style="margin: 0 1vw"
+              src="https://lazarev.kiev.ua/la24/webby.svg"
+            />
           </div>
           <div
             class="blur-right h-full w-[20%] bg-[linear-gradient(to_right,transparent,#111)] absolute top-0 right-0 z-[2]"
@@ -224,7 +527,7 @@
             style="padding-top: 2vw; padding-bottom: 5vw"
             class="right-elem border-b border-b-[#333] relative"
           >
-            <h2>
+            <h2 style="font-size: 1.4vw; font-weight: 400">
               How to Design An AI InterFace Users will <br />Trust in 2024?
             </h2>
             <img
@@ -236,7 +539,7 @@
             style="padding-top: 2vw; padding-bottom: 5vw"
             class="right-elem border-b border-b-[#333] relative"
           >
-            <h2>
+            <h2 style="font-size: 1.4vw; font-weight: 400">
               How AI Influences Design And The <br />
               Reciprocal Impact Of UX On AI-Driven <br />
               Products
@@ -250,7 +553,7 @@
             style="padding-top: 2vw; padding-bottom: 5vw"
             class="right-elem border-b border-b-[#333] relative"
           >
-            <h2>
+            <h2 style="font-size: 1.4vw; font-weight: 400">
               Lazarev Becomes A Professional Webflow <br />
               Partner
             </h2>
@@ -263,7 +566,7 @@
             style="padding-top: 2vw; padding-bottom: 5vw"
             class="right-elem border-b border-b-[#333] relative"
           >
-            <h2>
+            <h2 style="font-size: 1.4vw; font-weight: 400">
               AI-Based Industrial Software Canvass AI <br />
               Secures $7.5M In Funding
             </h2>
@@ -1032,169 +1335,273 @@
         >
           <!-- Column 1 -->
           <div class="flex flex-col gap-4">
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >UX audit</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >SaaS</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Digital product design</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >B2B design agency</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Design system</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Web design consultancy</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >AI consulting services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Branding agency</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >AI marketing consultant services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Nonprofit branding agency</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >CBD website design company</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Restaurant website design agency</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >White label web design services</a
             >
           </div>
 
           <div class="flex flex-col gap-4">
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >UI design</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Web app</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Website redesign</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >UX research consultancy</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Product redesign</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >MVP product design</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Logo design agency</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Webflow design agency</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >UX prototyping services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Creative web design services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Hotel website design company</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Appliance repair web design services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Outsourced design services</a
             >
           </div>
 
           <div class="flex flex-col gap-4">
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >UX design</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Mobile app</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >UX/UI design</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Digital product consulting</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Startup web design</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Conversational AI consulting</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Usability testing services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Generative AI consulting services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Digital transformation services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Landing page web design services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Law firm website design services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Church website design company</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Infographic design agency</a
             >
           </div>
 
           <div class="flex flex-col gap-4">
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >UX research</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Web design services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >UX design team</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >UX strategy agency</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Responsive web design</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Hire AI designers</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Product growth design services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >AI conversational design</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Digital transformation consulting</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Corporate website design agency</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Gym web design services</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >Manufacturing website design agency</a
             >
-            <a href="#" class="service-link text-[0.9vw] block text-base"
+            <a
+              href="#"
+              class="service-link transition: color 0.3s ease; text-[0.9vw] block text-base"
               >SaaS MVP design</a
             >
           </div>
@@ -1235,6 +1642,230 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="script.js"></script>
+    <script>
+      function locomotiveAnimation() {
+        gsap.registerPlugin(ScrollTrigger);
+
+        const locoScroll = new LocomotiveScroll({
+          el: document.querySelector(".main"),
+          smooth: true,
+
+          // for tablet smooth
+          tablet: { smooth: true },
+
+          // for mobile
+          smartphone: { smooth: true },
+        });
+        locoScroll.on("scroll", ScrollTrigger.update);
+
+        ScrollTrigger.scrollerProxy(".main", {
+          scrollTop(value) {
+            return arguments.length
+              ? locoScroll.scrollTo(value, 0, 0)
+              : locoScroll.scroll.instance.scroll.y;
+          },
+          getBoundingClientRect() {
+            return {
+              top: 0,
+              left: 0,
+              width: window.innerWidth,
+              height: window.innerHeight,
+            };
+          },
+        });
+
+        ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+
+        ScrollTrigger.refresh();
+      }
+      locomotiveAnimation();
+
+      function loadingAnimation() {
+        var tl = gsap.timeline();
+        tl.from(".page1", {
+          opacity: 0,
+          duration: 0.2,
+          delay: 0.2,
+        });
+        tl.from(".page1", {
+          transform: "scaleX(0.7) scaleY(0.2) translateY(80%)",
+          borderRadius: "150px",
+          duration: 2,
+          ease: "expo.out",
+        });
+        tl.from("nav", {
+          opacity: 0,
+          delay: -0.2,
+        });
+        tl.from(".page1 h1, .page1 p, .page1 div", {
+          opacity: 0,
+          duration: 0.5,
+          stagger: 0.2,
+        });
+      }
+      loadingAnimation();
+
+      function navAnimation() {
+        let nav = document.querySelector("nav");
+        nav.addEventListener("mouseenter", function () {
+          let tl = gsap.timeline();
+
+          tl.to(".nav-bottom", {
+            height: "21vh",
+          });
+
+          tl.to(".nav-part2 h5", {
+            display: "block",
+          });
+
+          tl.to(".nav-part2 h5 span", {
+            y: 0,
+            stagger: {
+              amount: 0.6,
+            },
+          });
+        });
+
+        nav.addEventListener("mouseleave", function () {
+          let tl = gsap.timeline();
+
+          tl.to(".nav-part2 h5 span", {
+            y: "100%",
+            stagger: {
+              amount: 0.2,
+            },
+          });
+
+          tl.to(".nav-part2 h5", {
+            display: "none",
+            duration: 0.1,
+          });
+
+          tl.to(".nav-bottom", {
+            height: 0,
+            duration: 0.2,
+          });
+        });
+      }
+      navAnimation();
+
+      function page2Animation() {
+        let rightElems = document.querySelectorAll(".right-elem");
+        rightElems.forEach(function (elem) {
+          elem.addEventListener("mouseenter", function () {
+            gsap.to(elem.childNodes[3], {
+              opacity: 1,
+              scale: 1,
+            });
+          });
+
+          elem.addEventListener("mouseleave", function () {
+            gsap.to(elem.childNodes[3], {
+              opacity: 0,
+              scale: 0,
+            });
+          });
+
+          elem.addEventListener("mousemove", function (dets) {
+            gsap.to(elem.childNodes[3], {
+              x: dets.x - elem.getBoundingClientRect().x - 50,
+              y: dets.y - elem.getBoundingClientRect().y - 150,
+            });
+          });
+        });
+      }
+      page2Animation();
+
+      function page3VideoAnimation() {
+        let page3Center = document.querySelector(".page3-center");
+        let video = document.querySelector(".page3 video");
+
+        page3Center.addEventListener("click", function () {
+          video.play();
+          gsap.to(video, {
+            transform: "scaleX(1) scaleY(1)",
+            opacity: 1,
+            borderRadius: 0,
+          });
+        });
+
+        video.addEventListener("click", function () {
+          video.pause();
+          gsap.to(video, {
+            transform: "scaleX(0.7) scaleY(0)",
+            opacity: 0,
+            borderRadius: "30px",
+          });
+        });
+      }
+      page3VideoAnimation();
+
+      function page5videoPlayPause() {
+        let sectionRight = document.querySelectorAll(".sec-right");
+        sectionRight.forEach(function (elem) {
+          elem.addEventListener("mouseenter", function () {
+            elem.childNodes[3].style.opacity = 1;
+            elem.childNodes[3].play();
+          });
+          elem.addEventListener("mouseleave", function () {
+            elem.childNodes[3].style.opacity = 0;
+            elem.childNodes[3].load();
+          });
+        });
+      }
+      page5videoPlayPause();
+
+      function page8Animation() {
+        gsap.to(".btm8-part2 h4", {
+          x: 0,
+          duration: 1,
+          scrollTrigger: {
+            trigger: ".btm8-part2",
+            scroller: ".main",
+            start: "top 80%",
+            end: "top 10%",
+            scrub: true,
+          },
+        });
+
+        gsap.to(".btm8-part3 h4", {
+          x: 0,
+          duration: 1,
+          scrollTrigger: {
+            trigger: ".btm8-part3",
+            scroller: ".main",
+            start: "top 80%",
+            end: "top 10%",
+            scrub: true,
+          },
+        });
+        gsap.to(".btm8-part4 h4", {
+          x: 0,
+          duration: 1,
+          scrollTrigger: {
+            trigger: ".btm8-part4",
+            scroller: ".main",
+            start: "top 80%",
+            end: "top 10%",
+            scrub: true,
+          },
+        });
+      }
+      page8Animation();
+
+      function page6StickyButton() {
+        gsap.to(".page6 button", {
+          scrollTrigger: {
+            trigger: ".page6",
+            scroller: ".main",
+            start: "top top",
+            end: "bottom 45%",
+            pin: ".page6 button",
+            pinSpacing: false,
+          },
+        });
+      }
+      page6StickyButton();
+    </script>
   </body>
 </html>
