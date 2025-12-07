@@ -4,13 +4,6 @@
 
 [Live Demo](https://lazarevclone1.netlify.app/)
 
-## Table of Contents
-
-- [About](#about)
-- [Tech Stack](#tech-stack)
-- [What I wanted to learn](#what-i-wanted-to-learn)
-- [Features Implemented](#features-implemented)
-
 ## About
 
 This is a single-page HTML prototype recreating the Lazarev landing experience for hands-on learning. It mixes Tailwind (via CDN), plain CSS and JS with GSAP and Locomotive for smooth scroll + animated interactions.
