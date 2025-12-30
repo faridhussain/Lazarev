@@ -2,7 +2,7 @@
 
 > **Personal learning clone** of the Lazarev agency landing page. Built to practice Tailwind utilities, GSAP animations and Locomotive Scroll. This is **not** an official Lazarev project.
 
-[Live Demo](https://lazarevclone1.netlify.app/)
+[Live Demo](https://faridhussain.github.io/Lazarev/)
 
 ## About
 
